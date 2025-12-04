@@ -28,7 +28,7 @@ export default function Home() {
           </a>
 
           <a
-            href="https://nonterritorial.network"
+            href="https://www.nonterritorial.network"
             target="_blank"
             rel="noopener noreferrer"
             className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] transition hover:bg-white hover:text-black"
