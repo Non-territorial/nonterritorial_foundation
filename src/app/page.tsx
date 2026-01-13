@@ -19,7 +19,7 @@ export default function Home() {
             href="https://sonicroom.net"
             target="_blank"
             rel="noopener noreferrer"
-            className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] transition hover:bg-white hover:text-black"
+            className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] hover:text-gray-500"
           >
             <span className="block text-[10px] uppercase tracking-[0.12em] text-white/45 mb-1">
               Sonic Library for Deep Listening
@@ -30,7 +30,7 @@ export default function Home() {
             href="https://nonterritorial.net"
             target="_blank"
             rel="noopener noreferrer"
-            className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] transition hover:bg-white hover:text-black"
+            className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] hover:text-gray-500"
           >
             <span className="block text-[10px] uppercase tracking-[0.12em] text-white/45 mb-1">
               Private Exhibitions
@@ -42,7 +42,7 @@ export default function Home() {
             href="https://www.nonterritorial.network"
             target="_blank"
             rel="noopener noreferrer"
-            className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] transition hover:bg-white hover:text-black"
+            className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] hover:text-gray-500"
           >
             <span className="block text-[10px] uppercase tracking-[0.12em] text-white/45 mb-1">
               Network & Technology
