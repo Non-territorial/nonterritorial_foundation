@@ -15,6 +15,17 @@ export default function Home() {
         </p>
 
         <div className="space-y-4">
+             <a
+            href="https://sonicroom.net"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block border border-white/25 px-7 py-4 text-sm tracking-[0.05em] transition hover:bg-white hover:text-black"
+          >
+            <span className="block text-[10px] uppercase tracking-[0.12em] text-white/45 mb-1">
+              Sonic Library for Deep Listening
+            </span>
+            Sonic Room
+          </a>
           <a
             href="https://nonterritorial.net"
             target="_blank"
@@ -24,7 +35,7 @@ export default function Home() {
             <span className="block text-[10px] uppercase tracking-[0.12em] text-white/45 mb-1">
               Private Exhibitions
             </span>
-            Nonterritorial Analog
+            Nonterritorial
           </a>
 
           <a
