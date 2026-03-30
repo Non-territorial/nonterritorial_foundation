@@ -1,17 +1,9 @@
 import type { Metadata } from "next";
-import { IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
-
-const ibmPlexMono = IBM_Plex_Mono({
-  variable: "--font-ibm-plex-mono",
-  subsets: ["latin"],
-  weight: ["100", "200", "300", "400", "500", "600", "700"],
-  style: ["normal", "italic"],
-});
 
 export const metadata: Metadata = {
   title: "Nonterritorial Foundation",
-  description: "Building autonomous infrastructure for art circulation",
+  description: "Autonomous infrastructure for art circulation",
 };
 
 export default function RootLayout({
@@ -21,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${ibmPlexMono.variable} antialiased font-mono`}>
+      <body className="antialiased">
         {children}
       </body>
     </html>

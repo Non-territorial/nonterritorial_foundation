@@ -8,8 +8,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-ibm-plex-mono);
-  --font-mono: var(--font-ibm-plex-mono);
+  --font-sans: 'isocpeur', monospace;
+  --font-mono: 'isocpeur', monospace;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -19,8 +19,33 @@
   }
 }
 
+@font-face {
+  font-family: 'isocpeur';
+  src: url('/fonts/isocpeur.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iA Writer Duo S';
+  src: url('/fonts/iAWriterDuoS-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iA Writer Duo S';
+  src: url('/fonts/iAWriterDuoS-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: IBM Plex Mono, sans-serif;
+  font-family: 'isocpeur', monospace;
+}
+
+p {
+  font-family: 'iA Writer Duo S', monospace;
 }
