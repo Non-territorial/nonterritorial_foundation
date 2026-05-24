@@ -75,7 +75,7 @@ export default function Home() {
             info@nonterritorial.foundation
           </a>
           <br />
-          Nonterritorial Foundation · Rome, Italy · London, UK · Vilnius, Lithuania
+          Nonterritorial Foundation · Rome, Italy · London, UK 
         </footer>
       </div>
     </main>
